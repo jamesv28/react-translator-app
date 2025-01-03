@@ -1,7 +1,9 @@
+import Translator from "./components/translator";
+
 function App() {
   return (
     <>
-      <h2>react app</h2>
+      <Translator />
     </>
   );
 }

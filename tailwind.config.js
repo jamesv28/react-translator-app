@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        manrope: ["Manrope", "sans-serif"],
+        plusJakartaSans: ["Plus Jakarta Sans", "sans-serif"],
+        notoSansJP: ["Noto Sans JP", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
