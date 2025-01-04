@@ -8,6 +8,7 @@ export default {
         plusJakartaSans: ["Plus Jakarta Sans", "sans-serif"],
         notoSansJP: ["Noto Sans JP", "sans-serif"],
       },
+      translate: ["active"],
     },
   },
   plugins: [],

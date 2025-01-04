@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Sans+JP:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Sans+JP:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,4 +19,12 @@ h4,
 h5,
 h6 {
   font-family: "Manrope", sans-serif;
+}
+
+.language {
+  @apply text-sm sm:text-lg text-right uppercase cursor-pointer;
+}
+
+.textarea {
+  @apply w-full h-48 resize-none bg-[#151515] shadow-md shadow-black rounded-lg px-4 py-2 font-light leading-5 text-gray-200;
 }
